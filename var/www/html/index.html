@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chris Dutton | IT & Cloud Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+    }
+
+    header {
+        background: #1e293b;
+        color: white;
+        padding: 15px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    .hero {
+        background: linear-gradient(to right, #3b82f6, #06b6d4);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #1e293b;
+        color: white;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Chris Dutton</h2>
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>IT & Cloud Engineer (In Progress)</h1>
+    <p>Building hands-on experience in Linux, networking, and automation</p>
+
+    <a href="#projects">
+        <button style="margin-top:20px; padding:10px 20px; border:none; border-radius:5px; background:white; color:#3b82f6; cursor:pointer;">
+            View My Work
+        </button>
+    </a>
+</section>
+
+<div class="container" id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Linux</h3>
+            <p>Rocky Linux, file systems, users, SSH</p>
+        </div>
+        <div class="card">
+            <h3>Networking</h3>
+            <p>IP addressing, ports, firewalls</p>
+        </div>
+        <div class="card">
+            <h3>Automation</h3>
+            <p>Learning Ansible & scripting basics</p>
+        </div>
+    </div>
+</div>
+
+<div class="container" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="cards">
+
+        <div class="card">
+            <h3>Web Server</h3>
+            <p>Built and hosted a web server on Rocky Linux using Apache.</p>
+        </div>
+
+        <div class="card">
+            <h3>File Server</h3>
+            <p>Configured secure file transfers using SFTP.</p>
+        </div>
+
+        <div class="card">
+            <h3>Home Lab</h3>
+            <p>Created virtual machines and practiced system administration.</p>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+        <p>Email: your@email.com</p>
+        <p>LinkedIn: add your link</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Chris Dutton</p>
+</footer>
+
+</body>
+</html>
